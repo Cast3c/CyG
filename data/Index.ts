@@ -37,6 +37,16 @@ export const hero: HeroData = {
     "Mudanzas, carga y encomiendas en Bogotá y toda Colombia. Servicio rápido, seguro y sin complicaciones.",
   slides: [
     {
+      src: "/images/hero/bodega.jpg",
+      alt: "Bodega",
+      title: "BODEGA",
+    },
+    {
+      src: "/images/hero/encomiendas.jpg",
+      alt: "Encomiendas",
+      title: "ENCOMIENDAS", 
+    },
+    {
       src: "/images/hero/montacarga.jpg",
       alt: "Carga especializada",
       title: "CARGA",
@@ -46,16 +56,8 @@ export const hero: HeroData = {
       alt: "Mudanzas",
       title: "MUDANZAS",
     },
-    {
-      src: "/images/hero/encomiendas.jpg",
-      alt: "Encomiendas",
-      title: "ENCOMIENDAS",
-    },
-    {
-      src: "/images/hero/bodega.jpg",
-      alt: "Almacenamiento",
-      title: "LOGÍSTICA",
-    },
+    
+    
   ],
 
   badges: [
@@ -196,7 +198,7 @@ export const contact: ContactData = {
       label: "Correo",
       href: "mailto:contacto@cygtransportes.com",
       icon: "mail"
-    },
+    }
   ],
 }
 
@@ -210,5 +212,7 @@ export const footer: FooterData = {
   social: {
     whatsapp: "https://wa.me/573001234567",
     email: "mailto:contacto@cygtransportes.com",
+    facebook: "https://www.facebook.com/profile.php?id=100051715186257",
+    instagram: "https://www.instagram.com/cyg_logistica/",
   },
 }

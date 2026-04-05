@@ -126,9 +126,10 @@ export type FooterData = {
     quote: string
     copyright: string
     social: {
-        github?: string
+        instagram?: string
         linkedin?: string
         whatsapp?: string
         email?:string
+        facebook?: string,
     }
 }
