@@ -66,23 +66,25 @@ const Header = () => {
 
         {/* MOBILE MENU BUTTON */}
         <button
-          className="md:hidden"
+          className=" md:hidden"
           onClick={() => setOpen(!open)}
         >
-          
+          {
+            icons.menu && <icons.menu  className='cursor-pointer'/>
+          }
         </button>
       </div>
 
       {/* MOBILE MENU */}
       {open && (
-        <div className="md:hidden bg-white shadow-lg p-4 space-y-4">
+        <div className="flex flex-col md:hidden bg-white shadow-lg p-4 space-y-4">
           <a href="#servicios" onClick={() => setOpen(false)}>Servicios</a>
           <a href="#cobertura" onClick={() => setOpen(false)}>Cobertura</a>
           <a href="#testimonios" onClick={() => setOpen(false)}>Testimonios</a>
           <a href="#contacto" onClick={() => setOpen(false)}>Contacto</a>
 
           <a
-            href="https://wa.me/57XXXXXXXXXX"
+            href="https://wa.me/573132129686"
             className="block bg-green-500 text-white text-center py-2 rounded-lg"
           >
             WhatsApp

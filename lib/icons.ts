@@ -1,4 +1,4 @@
-import { FaHouse, FaWarehouse, FaPeopleCarryBox, FaBoxOpen, FaMessage, FaWhatsapp, FaEnvelope, FaPhone, FaFile, FaClock, FaTruckRampBox, FaBox, FaBoxesPacking, FaShieldHalved, FaBolt, FaUsers, FaCircleCheck, FaQuoteLeft, FaMapPin, FaFacebook, FaInstagram, FaTiktok, FaCalendarCheck  } from "react-icons/fa6";
+import { FaHouse, FaWarehouse, FaPeopleCarryBox, FaBoxOpen, FaMessage, FaWhatsapp, FaEnvelope, FaPhone, FaFile, FaClock, FaTruckRampBox, FaBox, FaBoxesPacking, FaShieldHalved, FaBolt, FaUsers, FaCircleCheck, FaQuoteLeft, FaMapPin, FaFacebook, FaInstagram, FaTiktok, FaCalendarCheck, FaBars  } from "react-icons/fa6";
 import { GiColombia } from "react-icons/gi";
 
 export const icons = {
@@ -7,6 +7,7 @@ export const icons = {
     services: FaPeopleCarryBox,
     about: FaBoxOpen,
     contact: FaMessage,
+    menu: FaBars,
 
     // CTA
     whatsapp: FaWhatsapp,
