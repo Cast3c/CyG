@@ -141,45 +141,45 @@ export const testimonials: TestimonialData = {
   title: "Lo que dicen nuestros clientes",
   items: [
     {
-      name: "Carlos Ramírez",
+      name: "Rocio Delgado",
       role: "Cliente",
       company: "",
-      avatar: "/images/testimonials/CarlosRamirez.jpg",
+      avatar: "/images/testimonials/AndreaRoa.jpg",
+      quote: "Muy agradecida todo salio muy bien con la mudanza.",
+      icon: "quoteIcon"
+    },
+    {
+      name: "Alimentos del Cerro",
+      role: "Empresa",
+      company: "Del cerro",
+      avatar: "/images/logos/delCerro.png",
       quote: "Excelente servicio, muy puntuales y cuidadosos.",
       icon: "quoteIcon"
     },
     {
-      name: "Laura Gómez",
-      role: "Empresaria",
+      name: "Mayra Parada",
+      role: "Ama de casa",
       company: "",
-      avatar: "/images/testimonials/AndreaRoa.jpg",
-      quote: "Confío en ellos para mis envíos siempre.",
+      avatar: "/images/testimonials/ShingShang.jpg",
+      quote: "Muchas gracias todo salio perfecto.",
       icon: "quoteIcon"
     },
     {
-      name: "Anderson Smith",
+      name: "colcircuitos",
+      role: "Empresa",
+      company: "Colcircuitos",
+      avatar: "/images/logos/colcircuitos.png",
+      quote: "Excelente, muy buenos en lo que hacen.",
+      icon: "quoteIcon"
+    },
+    {
+      name: "Wilfredo Holguin",
       role: "Empresario",
       company: "",
       avatar: "/images/testimonials/AndersonSmith.png",
       quote: "Confío en ellos para mis envíos siempre.",
       icon: "quoteIcon"
-    },
-    {
-      name: "Petrona Martinez",
-      role: "Cliente",
-      company: "",
-      avatar: "/images/testimonials/PetronaMartinez.jpg",
-      quote: "Siempre son muy atentos y cuidadosos.",
-      icon: "quoteIcon"
-    },
-    {
-      name: "Shing Shang",
-      role: "Empresaria",
-      company: "",
-      avatar: "/images/testimonials/ShingShang.jpg",
-      quote: "Confío en ellos para mis envíos siempre.",
-      icon: "quoteIcon"
-    },
+    }
   ],
 }
 
