@@ -67,7 +67,7 @@ const Footer = () => {
 
               {/* WHATSAPP CTA */}
               <a
-                href="https://wa.me/573001234567"
+                href="https://wa.me/573132129686"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-2 text-green-400 hover:text-green-300 transition"

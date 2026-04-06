@@ -1,8 +1,38 @@
-import Image from "next/image"
-import { contact } from "@/data/Index"
-import { icons } from "@/lib/icons"
+"use client";
+
+import emailjs from "@emailjs/browser";
+import { useRef, useState } from "react";
+import { contact } from "@/data/Index";
+import { icons } from "@/lib/icons";
 
 const Contact = () => {
+  const form = useRef<HTMLFormElement>(null);
+  const [loading, setLoading] = useState(false)
+  const sendEmail = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (!form.current) return;
+
+    setLoading(true)
+
+    emailjs
+      .sendForm(
+      process.env.NEXT_PUBLIC_EMAILJS_SERVICE!,
+      process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE!,
+      form.current,
+      process.env.NEXT_PUBLIC_EMAILJS_KEY!,
+      )
+      .then(() => {
+        alert("Mensaje enviado con éxito!");
+        form.current?.reset();
+      })
+      .catch(() => {
+        alert("Error al enviar el mensaje. Por favor intentalo de nuevo.")
+      })
+      .finally(() => {
+        setLoading(false)
+      });
+  };
   return (
     <section id="contacto" className="mt-24 py-10">
       <div className="max-w-7xl mx-auto px-4">
@@ -20,34 +50,43 @@ const Contact = () => {
 
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
           <div className="space-y-2 ">
-            <label className="block text-sm font-semibold text-slate-700">
-              Nombre
-            </label>
-            <input
-              className="w-full rounded-lg border border-slate-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-              placeholder="Tu nombre"
-            />
+            <form onSubmit={sendEmail} ref={form}>
+              <label className="block text-sm font-semibold text-slate-700">
+                Nombre
+              </label>
+              <input
+                className="w-full rounded-lg border border-slate-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                name="user_name"
+                placeholder="Tu nombre"
+                required
+              />
 
-            <label className="block text-sm font-semibold text-slate-700">
-              Correo
-            </label>
-            <input
-              className="w-full rounded-lg border border-slate-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-              placeholder="tu@email.com"
-            />
+              <label className="block text-sm font-semibold text-slate-700">
+                Correo
+              </label>
+              <input
+                type="email"
+                className="w-full rounded-lg border border-slate-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                name="user_email"
+                placeholder="tu@email.com"
+                required
+              />
 
-            <label className="block text-sm font-semibold text-slate-700">
-              Mensaje
-            </label>
-            <textarea
-              className="w-full rounded-lg border border-slate-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-              rows={5}
-              placeholder="Escribe tu mensaje"
-            />
+              <label className="block text-sm font-semibold text-slate-700">
+                Mensaje
+              </label>
+              <textarea
+                className="w-full rounded-lg border border-slate-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                rows={5}
+                name="message"
+                placeholder="Escribe tu mensaje"
+                required
+              />
 
-            <button className="mt-2 inline-flex items-center justify-center rounded-lg bg-red-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-red-700 transition">
-              Enviar mensaje
-            </button>
+              <button type="submit" className="mt-2 inline-flex items-center justify-center rounded-lg bg-red-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-red-700 transition">
+                {loading ? "Enviando..." : "Enviar mensaje"}
+              </button>
+            </form>
           </div>
 
           <div className="flex flex-col  py-4 ">
@@ -89,6 +128,6 @@ const Contact = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Contact
+export default Contact;

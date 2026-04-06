@@ -23,7 +23,7 @@ export const header: HeaderData = {
   cta: {
     primary: {
       label: "WhatsApp",
-      href: "https://wa.me/573001234567",
+      href: "https://wa.me/573132129686",
       icon: "whatsapp"
     },
   },
@@ -191,7 +191,7 @@ export const contact: ContactData = {
   methods: [
     {
       label: "WhatsApp",
-      href: "https://wa.me/573001234567",
+      href: "https://wa.me/573132129686",
       icon: "whatsapp"
     },    
     {
@@ -210,7 +210,7 @@ export const footer: FooterData = {
   copyright:
     `© ${new Date().getFullYear()} CYG Transportes · Bogotá, Colombia`,
   social: {
-    whatsapp: "https://wa.me/573001234567",
+    whatsapp: "https://wa.me/573132129686",
     email: "mailto:contacto@cygtransportes.com",
     facebook: "https://www.facebook.com/profile.php?id=100051715186257",
     instagram: "https://www.instagram.com/cyg_logistica/",

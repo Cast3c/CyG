@@ -56,7 +56,7 @@ const Header = () => {
         {/* CTA */}
         <div className="hidden md:flex">
           <a
-            href="https://wa.me/57XXXXXXXXXX"
+            href="https://wa.me/573132129686"
             className="flex items-center gap-2 bg-green-500 text-white px-4 py-2 rounded-full text-sm"
           >
             
