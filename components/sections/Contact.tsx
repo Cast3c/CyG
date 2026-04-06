@@ -13,7 +13,7 @@ const Contact = () => {
             </h1>
             <div className="flex-1 h-px bg-linear-to-r from-red-700 to-transparent" />
           </div>
-          <h2 className="mt-12 font-bold text-2xl md:text-5xl lg:text-7xl text-end">
+          <h2 className="mt-12 font-bold text-xl md:text-5xl lg:text-7xl text-end">
             {contact.description}
           </h2>
         </div>

@@ -54,13 +54,13 @@ export default function Hero() {
               <h1 className="text-[35px] md:text-[80px] lg:text-[130px] font-black bg-linear-to-b from-white/90 via-white/60 to-white/30  bg-clip-text text-transparent opacity-90 pointer-events-none leading-[0.9] whitespace-pre-line">
                 {hero.title}
               </h1>
-              <div className="mt-2 flex flex-row gap-2 text-white text-sm">
+              <div className="hidden md:flex mt-2 flex-col md:flex-row gap-2 text-white text-sm">
                 {hero.badges?.map((badge, index) => {
                   const Icon = icons[badge.icon]
                   return (
                     <span key={index} className='flex items-center gap-1 px-3 py-1 bg-white/30 rounded-full'>
                       <Icon />
-                      <span className="hidden md:flex">{badge.label}</span>
+                      <span className="md:flex">{badge.label}</span>
                     </span>
                   )
                 })}

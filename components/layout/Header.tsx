@@ -20,7 +20,7 @@ const Header = () => {
     }, [])
   return (
     <header className={`fixed top-0 left-0 w-full z-50 h-16 transition-all duration-300 ${scrolled ? 'bg-white/50 backdrop-blur-lg shadow-sm': 'bg-transparent'}`}>
-        <div className="mx-auto px-12 py-3 flex items-center justify-between -blur-md ">
+        <div className="mx-auto px-6 py-3 flex items-center justify-between -blur-md ">
 
         {/* LOGO */}
         <Link href="/" className="relative w-12 h-12 shadow-xl rounded-full border-2 border-black/10">
