@@ -11,7 +11,7 @@ export default function Home() {
     <>
     <Header />
       <main>
-        <div className='px-12'>
+        <div className='px-6'>
           <Hero />
           <Services />
           <Testimonials />

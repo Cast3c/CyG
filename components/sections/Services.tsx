@@ -14,7 +14,7 @@ const Services = () => {
               <div className='flex-1 h-px bg-linear-to-r from-red-700 to-transparent'/>
             </div>
             {/* SUBTITLE */}
-            <h2 className='mt-12 font-bold text-7xl text-end'>{services.subtitle}</h2>
+            <h2 className='mt-12 font-bold text-2xl md:text-4xl lg:text-7xl text-end'>{services.subtitle}</h2>
             {/* CONTENT*/}
             <div className='mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
               {services.items.map((item) => (

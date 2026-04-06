@@ -74,17 +74,17 @@ export default function Hero() {
               </p>
 
               {/* CTA */}
-              <div className="mt-6 flex flex-col sm:flex-row md:justify-between gap-3">
+              <div className="mt-6 flex flex-col sm:flex-row justify-between gap-3">
 
                 {/* Input estilo SaaS */}
-                <div className="flex bg-white/30 rounded-full overflow-hidden shadow-lg">
+                <div className="flex mx-auto md:ml-0 bg-white/30 rounded-full overflow-hidden shadow-lg">
                   <input
                     type="text"
                     placeholder="Cotiza tu servicio en minutos"
                     className="px-4 py-2 text-sm outline-none w-48 md:w-64 bg-transparent 
                     text-white placeholder-white"
                   />
-                  <button className="bg-blue-600 text-white px-4 py-2 text-sm font-semibold">
+                  <button className="bg-red-600 text-white px-4 py-2 text-sm font-semibold">
                     {hero.cta.primary.label}
                   </button>
                 </div>
