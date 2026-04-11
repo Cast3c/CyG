@@ -31,10 +31,10 @@ export const header: HeaderData = {
 
 // ========= HERO =========
 export const hero: HeroData = {
-  title: "TRANSPORTE \nDE CARGA",
-  tagline: "Soluciones logísticas confiables",
-  description:
-    "Mudanzas, carga y encomiendas en Bogotá y toda Colombia. Servicio rápido, seguro y sin complicaciones.",
+  title: "MUDANZAS Y CARGA\nSIN COMPLICACIONES",//"TRANSPORTE \nDE CARGA",
+  tagline: "Entregamos mientras tú avanzas",//"Soluciones logísticas confiables",
+  description: "raslada tu vida o negocio en Bogotá en horas, no días. Seguimiento en tiempo real, equipo experto y 98% de satisfacción garantizada.",
+    //"Mudanzas, carga y encomiendas en Bogotá y toda Colombia. Servicio rápido, seguro y sin complicaciones.",
   slides: [
     {
       src: "/images/hero/bodega.jpg",

@@ -115,7 +115,7 @@ const Footer = () => {
         </div>
 
         {/* DIVIDER */}
-        <div className="mt-12 h-px bg-gradient-to-r from-neutral-700 to-transparent" />
+        <div className="mt-12 h-px bg-linear-to-r from-neutral-700 to-transparent" />
 
         {/* BOTTOM */}
         <div className="mt-6 flex flex-col md:flex-row justify-between items-center text-xs text-neutral-500 gap-4">
