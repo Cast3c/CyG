@@ -122,17 +122,17 @@ export const services: ServicesData = {
 
 // ========= ABOUT =========
 export const about: AboutData = {
-  title: "Sobre Nosotros",
+  title: "Somos CyG",
   description:
-    "En CYG Transportes contamos con años de experiencia brindando soluciones logísticas confiables en Bogotá y todo el país.",
+    "Desde 2019, personas que entienden que trasladar tu negocio o tu vida no es solo mover cosas. Es cuidar lo que importa. Con +5000 entregas en Bogotá y el resto del pais, hemos ganado confianza haciendo bien lo básico: puntuales, cuidadosos, transparentes en precios.",//"En CYG Transportes contamos con años de experiencia brindando soluciones logísticas confiables en Bogotá y todo el país.",
   image: {
     src: "/images/about/equipoMed.png",
     alt: "Equipo de CyG transportes"
   },
   stats: [
-    { label: "Años de experiencia", value: "+5", icon: "calendar" },
-    { label: "Servicios realizados", value: "+200", icon: "check" },
-    { label: "Clientes satisfechos", value: "98%", icon: "users" },
+    { label: "Clientes confiados", value: "+5000", icon: "users" },
+    { label: "Entregas a tiempo", value: "99.2%", icon: "clock" },
+    { label: "Satisfaccion", value: "4.9/5", icon: "star" },
   ],
 }
 
