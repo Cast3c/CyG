@@ -51,7 +51,7 @@ export default function Hero() {
 
             {/* TOP [-webkit-text-stroke:4px_rgba(255,255,255,0.9)]*/}
             <div className="flex flex-col justify-between items-start">
-              <h1 className="text-[35px] md:text-[80px] lg:text-[130px] font-black bg-linear-to-b from-white/90 via-white/60 to-white/30  bg-clip-text text-transparent opacity-90 pointer-events-none leading-[0.9] whitespace-pre-line">
+              <h1 className="text-[30px] md:text-[60px] lg:text-[80px] font-black bg-linear-to-b from-white/90 via-white/60 to-white/30  bg-clip-text text-transparent opacity-90 pointer-events-none leading-[0.9] whitespace-pre-line">
                 {hero.title}
               </h1>
               <div className="hidden md:flex mt-2 flex-col md:flex-row gap-2 text-white text-sm">

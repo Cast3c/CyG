@@ -33,7 +33,7 @@ export const header: HeaderData = {
 export const hero: HeroData = {
   title: "MUDANZAS Y CARGA\nSIN COMPLICACIONES",//"TRANSPORTE \nDE CARGA",
   tagline: "Entregamos mientras tú avanzas",//"Soluciones logísticas confiables",
-  description: "raslada tu vida o negocio en Bogotá en horas, no días. Seguimiento en tiempo real, equipo experto y 98% de satisfacción garantizada.",
+  description: "Traslada tu vida o negocio en Bogotá en horas, no días. Seguimiento en tiempo real, equipo experto y 98% de satisfacción garantizada.",
     //"Mudanzas, carga y encomiendas en Bogotá y toda Colombia. Servicio rápido, seguro y sin complicaciones.",
   slides: [
     {
@@ -88,7 +88,7 @@ export const services: ServicesData = {
       id: "mudanzas",
       title: "Mudanzas",
       description:
-        "Trasladamos tus pertenencias de forma segura y eficiente.",
+        "Mudarse no tiene que ser estrés! Nosotros embalamos, cargamos y desembalamos. Protegemos tus muebles con tecnología de amortiguación y entregas el mismo día en Bogotá.", //"Trasladamos tus pertenencias de forma segura y eficiente.",
       image: {
         src: "/images/services/mudanza.jpg",
         alt: "Servicio de mudanzas"
@@ -99,7 +99,7 @@ export const services: ServicesData = {
       id: "carga",
       title: "Carga especializada",
       description:
-        "Transporte de mercancía pesada o delicada con equipo adecuado.",
+        "Desde líneas blancas hasta maquinaria sensible. Con polizas de aseguramiento y seguimiento GPS. Tu carga, nuestro compromiso.",//"Transporte de mercancía pesada o delicada con equipo adecuado.",
       image:  {
         src: "/images/services/carga_especial.jpeg",
         alt: "Servicio de carga especializada"
@@ -110,7 +110,7 @@ export const services: ServicesData = {
       id: "encomiendas",
       title: "Encomiendas",
       description:
-        "Entrega rápida de paquetes a nivel local y nacional.",
+        "De tu puerta a la puerta destino en 24-48 horas. Rastreo en vivo, embalaje profesional y entrega confirmada. Zero preocupación.",//"Entrega rápida de paquetes a nivel local y nacional.",
       image: {
         src: "/images/services/encomienda.jpeg",
         alt: "Servicio de encomiendas"
