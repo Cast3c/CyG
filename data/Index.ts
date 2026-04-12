@@ -185,9 +185,9 @@ export const testimonials: TestimonialData = {
 
 // ========= CONTACT =========
 export const contact: ContactData = {
-  title: "Contáctanos",
+  title: "Cotiza en 3 minutos",
   description:
-    "Solicita tu cotización o recibe asesoría personalizada.",
+    "Sin formularios largos. Solo cuéntanos qué necesitas y en 10 minutos tienes precio fijo, sin sorpresas. WhatsApp o email, como prefieras.",
   methods: [
     {
       label: "WhatsApp",
