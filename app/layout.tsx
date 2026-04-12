@@ -13,8 +13,44 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CyG transportes | Mudanzas en Colombia",
-  description: "Servicio de transporte, mudanzas y carga en Bogotá y toda Colombia.",
+  title: "CyG Transportes | Mudanzas, Carga y Encomiendas en Bogotá y Colombia",
+  description:
+    "Servicio de mudanzas, carga especializada y encomiendas en Bogotá, Medellín y toda Colombia. Rastreo en vivo, equipo profesional, 98% satisfacción. Cotiza gratis.",
+  
+  keywords: [
+    "mudanzas bogotá",
+    "transporte de carga",
+    "encomiendas colombia",
+    "mudanzas medellin",
+    "servicio logístico"
+  ],
+
+  alternates: {
+    canonical: "https://cygtransportes.com",
+  },
+
+  openGraph: {
+    title: "CyG - Transporte de Confianza en Colombia",
+    description:
+      "Mudanzas, carga y encomiendas con rastreo en vivo. Entrega segura, rápida, sin complicaciones.",
+    url: "https://cygtransportes.com", // 👈 recomendable agregarlo
+    images: [
+      {
+        url: "https://cygtransportes.com/images/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "CyG Transportes - Mudanzas y Carga",
+      },
+    ],
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "CyG Transportes",
+    description: "Mudanzas y carga en Colombia con rastreo en vivo",
+    images: ["https://cygtransportes.com/images/og-image.jpg"],
+  },
 };
 
 export default function RootLayout({
