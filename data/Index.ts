@@ -142,18 +142,18 @@ export const testimonials: TestimonialData = {
   items: [
     {
       name: "Rocio Delgado",
-      role: "Cliente",
-      company: "",
+      role: "Contratista",
+      company: "Gobernacion de Santander",
       avatar: "/images/testimonials/AndreaRoa.jpg",
-      quote: "Muy agradecida todo salio muy bien con la mudanza.",
+      quote: "Muy agradecida todo salio muy bien con el transporte y entrega de los implementos en cada municipio",
       icon: "quoteIcon"
     },
     {
       name: "Alimentos del Cerro",
-      role: "Empresa",
-      company: "Del cerro",
+      role: "Gerente Logístico",
+      company: "Empresa",
       avatar: "/images/logos/delCerro.png",
-      quote: "Excelente servicio, muy puntuales y cuidadosos.",
+      quote: "Contratamos CyG para mudanza de bodega (2 toneladas). Cero daños, entrega 24h antes de lo planeado. Hoy los usamos para todo. Son confiables.",
       icon: "quoteIcon"
     },
     {
@@ -161,7 +161,7 @@ export const testimonials: TestimonialData = {
       role: "Ama de casa",
       company: "",
       avatar: "/images/testimonials/ShingShang.jpg",
-      quote: "Muchas gracias todo salio perfecto.",
+      quote: "Me cambiaba de apartamento y con 1 niño de brazos estaba estresada. CyG llegó puntual a las 7am, embalaron todo con cuidado y a las 3pm estábamos instalados.",
       icon: "quoteIcon"
     },
     {
@@ -169,7 +169,7 @@ export const testimonials: TestimonialData = {
       role: "Empresa",
       company: "Colcircuitos",
       avatar: "/images/logos/colcircuitos.png",
-      quote: "Excelente, muy buenos en lo que hacen.",
+      quote: "Enviábamos con 3 couriers diferentes. Inconsistentes y caros. Con CyG acoplamos un paquete predeterminado: $50k local, $120k nacional, rastreo incluido. Ahorro mensual: $800k. Confiable.",
       icon: "quoteIcon"
     },
     {

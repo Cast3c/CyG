@@ -140,10 +140,7 @@ hemos ganado confianza haciendo bien lo básico: puntuales, cuidadosos, transpar
   role: "Madre de 3 hijos",
   company: "Bogotá",
   avatar: "/images/testimonials/AndreaRoa.jpg",
-  quote: "Me cambiaba de apartamento en 2 semanas y con 3 niños estaba estresada. 
-  CyG llegó puntual a las 7am, embalaron todo con cuidado y a las 3pm estábamos instalados. 
-  El seguimiento GPS me tranquilizó. No es caro, es una ganga.",
-  icon: "quoteIcon"
+  quote: "Me cambiaba de apartamento y con 1 niño de brazos estaba estresada. CyG llegó puntual a las 7am, embalaron todo con cuidado y a las 3pm estábamos instalados. El seguimiento GPS me tranquilizó."
 },
 {
   name: "Alimentos del Cerro",

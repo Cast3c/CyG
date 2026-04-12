@@ -24,7 +24,7 @@ const Testimonials = () => {
                 key={`${item.name}-${key}`}
                 className="p-px bg-linear-to-b from-neutral-300 to-transparent rounded-2xl"
               >
-                <Card className="flex flex-row items-center justify-between gap-4 py-4 px-6 min-w-80">
+                <Card className="flex flex-row items-center justify-between gap-4 py-4 px-6 min-w-80 h-full">
                   <Image
                     src={item.avatar}
                     alt={item.name}
