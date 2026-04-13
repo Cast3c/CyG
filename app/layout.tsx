@@ -51,6 +51,34 @@ export const metadata: Metadata = {
     description: "Mudanzas y carga en Colombia con rastreo en vivo",
     images: ["https://cygtransportes.com/images/og-image.jpg"],
   },
+  other: {
+    "schema:LocalBusiness": JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "CyG Transportes",
+      "description": "Servicio de mudanzas y carga en Colombia",
+      "url": "https://cygtransportes.com",
+      "telephone": "+573132129686",
+      "email": "contacto@cygtransportes.com",
+      "areaServed": ["Bogotá", "Medellín", "Cali", "Colombia"],
+      "priceRange": "$$",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "247"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bogotá",
+        "addressRegion": "Cundinamarca",
+        "addressCountry": "CO"
+      },
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=100051715186257",
+        "https://www.instagram.com/cyg_logistica/"
+      ]
+    })
+  }
 };
 
 export default function RootLayout({

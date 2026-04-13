@@ -7,9 +7,9 @@ const Testimonials = () => {
   return (
     <section className="pb-12" id="testimonials">
       <div className="max-w-7xl mx-auto px-4">
-        <h1 className="text-end text-2xl font-light text-neutral-600 leading-[0.9]">
+        <h2 className="text-end text-2xl font-light text-neutral-600 leading-[0.9]">
           {testimonials.title}
-        </h1>
+        </h2>
 
         <div className="relative overflow-hidden mt-10">
           {/* Fade izquierda */}

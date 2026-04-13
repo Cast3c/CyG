@@ -38,14 +38,14 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-col">
           <div className="flex flex-row items-center gap-2">
-            <h1 className="text-2xl font-light text-start text-neutral-600 leading-[0.9]">
+            <h2 className="text-2xl font-light text-start text-neutral-600 leading-[0.9]">
               {contact.title}
-            </h1>
+            </h2>
             <div className="flex-1 h-px bg-linear-to-r from-red-700 to-transparent" />
           </div>
-          <h2 className="mt-12 font-bold text-xl md:text-5xl lg:text-7xl text-end">
+          <h3 className="mt-12 font-bold text-xl md:text-5xl lg:text-7xl text-end">
             {contact.description}
-          </h2>
+          </h3>
         </div>
 
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
