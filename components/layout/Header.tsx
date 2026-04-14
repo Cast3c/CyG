@@ -1,12 +1,14 @@
 "use client"
 
-import React, {useEffect, useState} from 'react'
+import {useEffect, useState}  from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
 import { header } from '@/data/Index'
 import { icons } from '@/lib/icons'
+
 const Header = () => {
+
     const [scrolled, setScrolled] = useState(false)
     const [open, setOpen] = useState(false)
 
@@ -19,7 +21,7 @@ const Header = () => {
         return () => window.removeEventListener('scroll', handleScroll)
     }, [])
   return (
-    <header className={`fixed top-0 left-0 w-full z-50 h-16 transition-all duration-300 ${scrolled ? 'bg-white/50 backdrop-blur-lg shadow-sm': 'bg-transparent'}`}>
+    <header className={`fixed top-0 left-0 w-full z-50 h-16 transition-all duration-300 ${scrolled ? 'bg-red-600 backdrop-blur-lg shadow-sm': 'bg-transparent'}`}>
         <div className="mx-auto px-6 py-3 flex items-center justify-between -blur-md ">
 
         {/* LOGO */}
@@ -46,7 +48,7 @@ const Header = () => {
                 >
                   {Icon && <Icon className="md:hidden w-5 h-5" />}
                   <span className={`text-sm font-semibold  hover:text-red-500 ${
-                    scrolled ? 'text-neutral-900 text-lg font-black' : 'text-neutral-500'
+                    scrolled ? 'text-neutral-200 text-lg font-black' : 'text-neutral-500'
                   }`}>{link.label}</span>
                 </Link>
             )

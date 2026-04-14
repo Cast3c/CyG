@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { icons } from "@/lib/icons"
+import Header from "@/components/layout/Header"
 
 export const metadata = {
   title: "Mudanzas en Bogotá | CyG Transportes",
@@ -54,7 +55,9 @@ const faqs = [
 
 const MudanzasPage = () => {
   return (
-    <main className="mx-auto mt-6 py-2 px-4">
+    <>
+      <Header />
+      <main className="mx-auto py-2 px-4 mt-24">
       {/* HERO */}
       <section className="relative rounded-3xl overflow-hidden h-[60vh] ">
         <Image
@@ -174,7 +177,8 @@ const MudanzasPage = () => {
         </div>
 
       </section>
-    </main>
+      </main>
+    </>
   )
 }
 

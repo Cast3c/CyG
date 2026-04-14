@@ -15,10 +15,10 @@ export const header: HeaderData = {
     alt: 'CyG transportes logo'
   },
   navLinks: [
-    { key: "home", label: "Inicio", href: "#home", icon: "home" },
-    { key: "services", label: "Servicios", href: "#servicios", icon: "services" },
-    { key: "about", label: "Nosotros", href: "#about", icon: "about" },
-    { key: "contact", label: "Contacto", href: "#contacto", icon: "contact" },
+    { key: "home", label: "Inicio", href: "/#home", icon: "home" },
+    { key: "services", label: "Servicios", href: "/#servicios", icon: "services" },
+    { key: "about", label: "Nosotros", href: "/#about", icon: "about" },
+    { key: "contact", label: "Contacto", href: "/#contacto", icon: "contact" },
   ],
   cta: {
     primary: {
@@ -93,7 +93,11 @@ export const services: ServicesData = {
         src: "/images/services/mudanza.jpg",
         alt: "Servicio de mudanzas"
       },
-      icon: "moving"
+      icon: {
+        icon: "moving",
+        label: "mas info"
+      },
+      href:"/servicios/mudanzas"
     },
     {
       id: "carga",
@@ -104,7 +108,11 @@ export const services: ServicesData = {
         src: "/images/services/carga_especial.jpeg",
         alt: "Servicio de carga especializada"
       },
-      icon: "cargo"
+      icon: {
+        icon: "cargo",
+        label: "mas info"
+      },
+      href:"/servicios/mudanzas"
     },
     {
       id: "encomiendas",
@@ -115,7 +123,11 @@ export const services: ServicesData = {
         src: "/images/services/encomienda.jpeg",
         alt: "Servicio de encomiendas"
       },
-      icon: "package"
+      icon: {
+        icon:"package",
+        label: "mas info"
+      },
+      href:"/servicios/mudanzas"
     },
   ],
 }

@@ -1,6 +1,8 @@
+import Link from 'next/link'
 import { services } from '@/data/Index'
 import Image from 'next/image'
 import Card from '../ui/Card'
+import { icons } from "@/lib/icons"
 
 const Services = () => {
   return (
@@ -17,15 +19,22 @@ const Services = () => {
             <h3 className='mt-12 font-bold text-2xl md:text-4xl lg:text-7xl text-end'>{services.subtitle}</h3>
             {/* CONTENT*/}
             <div className='mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
-              {services.items.map((item) => (
+              {services.items.map((item) => {
+                const Icon = icons[item.icon?.icon as keyof typeof icons]
+                return(
                 <Card key={item.id}>
                   <Image src={item.image.src} alt={item.image.alt} width={400} height={300} className='w-full h-50 object-cover'/>
                   <div className='p-6'>
                     <h3 className='text-xl font-semibold mb-2'>{item.title}</h3>
                     <p className='text-gray-600'>{item.description}</p>
                   </div>
+                  <Link href={item.href} >
+                    <div className='flex justify-end gap-4 px-4 py-2'>
+                      {item.icon?.label} - {Icon && <Icon className="w-6 h-6 text-red-600 mb-3" />}
+                    </div>
+                  </Link>
                 </Card>
-              ))}
+              )})}
             </div>
         </div>
     </section>

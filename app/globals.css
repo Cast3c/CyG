@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -32,6 +36,3 @@
   animation: scroll 30s linear infinite;
 }
 
-body {
-  
-}

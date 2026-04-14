@@ -58,17 +58,22 @@ export type Service = {
   id: string
   title: string
   description: string
-  icon?: IconName
+  icon?: {
+    label: string,
+    icon: IconName
+  },
   image: {
     src: string
     alt: string
-  }
+  },
+  href: string 
 }
 
 export type ServicesData = {
   title: string
   subtitle: string
   items: Service[]
+  
 }
 
 // ========= ABOUT =========
