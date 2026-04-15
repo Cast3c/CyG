@@ -88,14 +88,14 @@ export const services: ServicesData = {
       id: "mudanzas",
       title: "Mudanzas",
       description:
-        "Mudarse no tiene que ser estrés! Nosotros embalamos, cargamos y desembalamos. Protegemos tus muebles con tecnología de amortiguación y entregas el mismo día en Bogotá.", //"Trasladamos tus pertenencias de forma segura y eficiente.",
+        "Mudarse no tiene que ser estrés! Nosotros embalamos, cargamos y desembalamos. Protegemos tus muebles y entregamos el mismo día en Bogotá.", //"Trasladamos tus pertenencias de forma segura y eficiente.",
       image: {
         src: "/images/services/mudanza.jpg",
         alt: "Servicio de mudanzas"
       },
       icon: {
         icon: "moving",
-        label: "mas info"
+        label: "Más info"
       },
       href:"/servicios/mudanzas"
     },
@@ -110,9 +110,9 @@ export const services: ServicesData = {
       },
       icon: {
         icon: "cargo",
-        label: "mas info"
+        label: "Más info"
       },
-      href:"/servicios/mudanzas"
+      href:"/servicios/carga"
     },
     {
       id: "encomiendas",
@@ -125,9 +125,9 @@ export const services: ServicesData = {
       },
       icon: {
         icon:"package",
-        label: "mas info"
+        label: "Más info"
       },
-      href:"/servicios/mudanzas"
+      href:"/servicios/encomiendas"
     },
   ],
 }

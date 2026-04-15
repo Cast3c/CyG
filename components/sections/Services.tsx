@@ -22,18 +22,29 @@ const Services = () => {
               {services.items.map((item) => {
                 const Icon = icons[item.icon?.icon as keyof typeof icons]
                 return(
-                <Card key={item.id}>
-                  <Image src={item.image.src} alt={item.image.alt} width={400} height={300} className='w-full h-50 object-cover'/>
+              <Link key={item.id} href={item.href} className='group'>
+                <Card  className='flex justify-between flex-col gap-6 pb-6 h-full'>
+                  <Image 
+                    src={item.image.src} 
+                    alt={item.image.alt} 
+                    width={400} 
+                    height={300} 
+                    className='w-full h-50 object-cover'
+                    />
                   <div className='p-6'>
-                    <h3 className='text-xl font-semibold mb-2'>{item.title}</h3>
+                    <h3 className='text-xl font-semibold mb-2 group-hover:text-red-600 transition'>{item.title}</h3>
                     <p className='text-gray-600'>{item.description}</p>
                   </div>
-                  <Link href={item.href} >
-                    <div className='flex justify-end gap-4 px-4 py-2'>
-                      {item.icon?.label} - {Icon && <Icon className="w-6 h-6 text-red-600 mb-3" />}
+                  <div className='max-w-max flex items-center gap-2 bg-red-600 hover:bg-red-700 mx-auto px-5 rounded-full py-2 text-white font-semibold transition-all group-hover:translate-x-1'>
+                    <div className='flex items-center gap-2'>
+                      <span>{item.icon?.label}</span> - {Icon && <Icon className="w-5 h-5 " />}
                     </div>
-                  </Link>
+                  </div>
+                  <p className="mx-auto text-xs text-gray-400 mt-2">
+                    Cotiza en menos de 1 minuto
+                  </p>
                 </Card>
+              </Link>
               )})}
             </div>
         </div>

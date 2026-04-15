@@ -28,9 +28,9 @@ const Testimonials = () => {
                   <Image
                     src={item.avatar}
                     alt={item.name}
-                    width={80}
-                    height={80}
-                    className="rounded-full object-cover shadow-xl"
+                    width={120}
+                    height={60}
+                    className="rounded-2xl object-contain shadow-xl h-auto p-1"
                   />
                   <div className=" flex flex-col gap-1 items-center justify-start">
                     <p className="font-bold text-start text-sm">{item.name}</p>

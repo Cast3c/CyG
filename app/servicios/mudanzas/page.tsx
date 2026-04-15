@@ -14,12 +14,12 @@ export const metadata = {
 
 const beneficios = [
   {
-    icon: "shield",
+    icon: "security",
     title: "Seguridad garantizada",
     desc: "Protegemos tus pertenencias con embalaje profesional."
   },
   {
-    icon: "truck",
+    icon: "moving",
     title: "Transporte confiable",
     desc: "Flota equipada para mudanzas urbanas y nacionales."
   },

@@ -47,8 +47,8 @@ const Header = () => {
                     href={link.href}
                 >
                   {Icon && <Icon className="md:hidden w-5 h-5" />}
-                  <span className={`text-sm font-semibold  hover:text-red-500 ${
-                    scrolled ? 'text-neutral-200 text-lg font-black' : 'text-neutral-500'
+                  <span className={`text-sm font-semibold ${
+                    scrolled ? 'text-neutral-200 text-lg font-black hover:bg-white rounded-full min-w-2xl py-2 px-6 hover:text-red-500' : 'text-neutral-500 hover:bg-red-500 rounded-full min-w-2xl py-2 px-6 hover:text-white'
                   }`}>{link.label}</span>
                 </Link>
             )
