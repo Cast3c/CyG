@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     url: "https://cygtransportes.com", // 👈 recomendable agregarlo
     images: [
       {
-        url: "/images/og-image.jpg",
+        url: "https://cygtransportes.com/images/og-image-dark.jpg",
         width: 1200,
         height: 630,
         alt: "CyG Transportes - Mudanzas y Carga",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "CyG Transportes",
     description: "Mudanzas y carga en Colombia con rastreo en vivo",
-    images: ["https://cygtransportes.com/images/og-image.jpg"],
+    images: ["https://cygtransportes.com/images/og-image-dark.jpg"],
   },
   other: {
     "schema:LocalBusiness": JSON.stringify({
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
       "url": "https://cygtransportes.com",
       "telephone": "+573132129686",
       "email": "contacto@cygtransportes.com",
-      "areaServed": ["Bogotá", "Medellín", "Cali", "Colombia"],
+      "areaServed": ["Bogotá", "Medellín", "Cali", "Colombia", "Bucaramanga", "Cartagena", "Barranquilla", "Santa Marta", "Valledupar", "Pasto" ],
       "priceRange": "$$",
       "aggregateRating": {
         "@type": "AggregateRating",
