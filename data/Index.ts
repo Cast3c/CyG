@@ -90,7 +90,7 @@ export const services: ServicesData = {
       description:
         "Mudarse no tiene que ser estrés! Nosotros embalamos, cargamos y desembalamos. Protegemos tus muebles y entregamos el mismo día en Bogotá.", //"Trasladamos tus pertenencias de forma segura y eficiente.",
       image: {
-        src: "/images/services/mudanza.jpg",
+        src: "/images/services/mudanzas/mudanza.jpg",
         alt: "Servicio de mudanzas"
       },
       icon: {
