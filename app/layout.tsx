@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     url: "https://cygtransportes.com", // 👈 recomendable agregarlo
     images: [
       {
-        url: "https://cygtransportes.com/images/og-image.jpg",
+        url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "CyG Transportes - Mudanzas y Carga",
